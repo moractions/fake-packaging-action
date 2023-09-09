@@ -1,0 +1,9 @@
+name: "fake-packaging-action"
+description: "Fake packaging GitHub Actions"
+author: "morwn"
+runs:
+  using: "composite"
+  steps:
+    - shell: bash
+      run: |
+        echo "executing fake packaging action"
